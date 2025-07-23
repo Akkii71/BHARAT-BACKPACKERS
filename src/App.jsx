@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename='/BHARAT-BACKPACKERS'>
       <Navbar />
       <main>
         <Routes>
