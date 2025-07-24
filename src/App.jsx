@@ -6,6 +6,7 @@ import Destinations from './Components/Destinations';
 import About from './Components/About';
 import Signup from './Components/Signup';
 import Footer from './Components/Footer';
+import WeatherApp from './Components/Weather';
 import './index.css';
 import './App.css';
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/destinations" element={<Destinations />} />
           <Route path="/about" element={<About />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/weather" element={<WeatherApp />} />
         </Routes>
       </main>
       <Footer />
