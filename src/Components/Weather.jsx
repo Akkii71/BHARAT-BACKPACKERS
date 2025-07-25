@@ -41,7 +41,7 @@ const WeatherApp = () => {
   return (
     <div className={`weather-container ${isDay ? 'day' : 'night'}`}>
       <div className="weather-box">
-        <h1>Weather App</h1>
+        <h1>Find Weather in your City</h1>
         <div className="search">
           <input
             type="text"
